@@ -9,6 +9,36 @@ This project is a simplified clone of the Airbnb platform, designed to replicate
 - Integrate back-end services for data management and user authentication.
 - Gain experience with modern web development tools and frameworks.
 
+## Technology Stack
+
+This project employs a modern JavaScript-based technology stack designed for scalability, performance, and developer productivity.
+
+### Core Technologies:
+- **React.js**: JavaScript library for building interactive user interfaces
+- **Node.js**: JavaScript runtime for server-side execution
+- **Express.js**: Web application framework for building RESTful APIs
+- **MongoDB**: NoSQL database for flexible data storage and retrieval
+
+### Frontend Technologies:
+- **Redux/Context API**: State management libraries for maintaining application state
+- **Tailwind CSS**: Utility-first CSS framework for responsive design
+- **Axios**: Promise-based HTTP client for API requests
+- **React Router**: Library for handling navigation and routing in React applications
+- **Vite**: Modern frontend build tool offering fast development experience
+
+### Backend Technologies:
+- **Mongoose**: Object Data Modeling library for MongoDB and Node.js
+- **JWT**: JSON Web Tokens for secure authentication mechanisms
+- **Bcrypt**: Password hashing library for secure user authentication
+- **Socket.io**: Library for real-time bidirectional communication
+- **Cloudinary/AWS S3**: Cloud storage solutions for media assets
+
+### Development & Testing:
+- **Jest**: JavaScript testing framework for unit and integration testing
+- **Swagger/OpenAPI**: Tools for API documentation and specification
+
+For detailed information about implementation specifics, see the Front-End and Backend Tech Stack sections below.
+
 ## Front-End Tech Stack
 - **React.js**: For building reusable UI components and managing the application state.
 - **Redux (or Context API)**: For state management across the application.
