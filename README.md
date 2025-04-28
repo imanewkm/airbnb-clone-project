@@ -58,7 +58,7 @@ This project is a simplified clone of the Airbnb platform, designed to replicate
 
 A user-friendly design is critical in booking systems as it directly impacts conversion rates and user satisfaction. Users making accommodation decisions are often comparing multiple options and may be unfamiliar with the locations they're exploring. An intuitive interface reduces cognitive load during the decision-making process, while clear information hierarchy helps users quickly find the details most relevant to their needs. Transparency in pricing, availability, and policies builds trust, while responsive design ensures a consistent experience regardless of device. By minimizing friction points in the booking journey, we can significantly improve completion rates and enhance the overall user experience, encouraging repeat visits and positive word-of-mouth.
 
-## Project Roles and Responsibilities
+## Team Roles
 
 ### Project Manager
 - **Description**: Oversees the entire project lifecycle, ensuring timely delivery and quality standards.
