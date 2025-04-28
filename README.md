@@ -17,6 +17,18 @@ This project is a simplified clone of the Airbnb platform, designed to replicate
 - **React Router**: For client-side routing and navigation.
 - **Vite**: For fast development and optimized builds.
 
+## Backend Tech Stack
+- **Node.js**: Server-side JavaScript runtime environment.
+- **Express.js**: Web application framework for building RESTful APIs.
+- **MongoDB**: NoSQL database for storing property listings, user data, and bookings.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **JWT**: JSON Web Tokens for secure authentication and authorization.
+- **Bcrypt**: For password hashing and security.
+- **Cloudinary/AWS S3**: Cloud storage for property images and user uploads.
+- **Socket.io**: For real-time messaging between hosts and guests.
+- **Jest**: For backend testing and API endpoint validation.
+- **Swagger/OpenAPI**: For API documentation and testing.
+
 ## UI/UX Design Planning
 
 ### Design Goals
@@ -45,3 +57,85 @@ This project is a simplified clone of the Airbnb platform, designed to replicate
 ### Importance of User-Friendly Design in Booking Systems
 
 A user-friendly design is critical in booking systems as it directly impacts conversion rates and user satisfaction. Users making accommodation decisions are often comparing multiple options and may be unfamiliar with the locations they're exploring. An intuitive interface reduces cognitive load during the decision-making process, while clear information hierarchy helps users quickly find the details most relevant to their needs. Transparency in pricing, availability, and policies builds trust, while responsive design ensures a consistent experience regardless of device. By minimizing friction points in the booking journey, we can significantly improve completion rates and enhance the overall user experience, encouraging repeat visits and positive word-of-mouth.
+
+## Project Roles and Responsibilities
+
+### Project Manager
+- **Description**: Oversees the entire project lifecycle, ensuring timely delivery and quality standards.
+- **Key Responsibilities**:
+  - Creating and maintaining project plans and timelines
+  - Conducting regular team meetings and status updates
+  - Managing resources and budgets
+  - Identifying and mitigating project risks
+  - Facilitating communication between stakeholders
+- **Contribution**: Ensures the project stays on track, resolves blockers, and maintains alignment with business objectives.
+
+### Frontend Developers
+- **Description**: Responsible for implementing the user-facing components of the Airbnb clone.
+- **Key Responsibilities**:
+  - Building responsive UI components using React.js and Tailwind CSS
+  - Implementing client-side functionality and state management
+  - Consuming REST APIs and handling data presentation
+  - Ensuring cross-browser compatibility and responsive design
+  - Writing clean, maintainable code with proper documentation
+- **Contribution**: Creates the interactive user experience that drives engagement and enables core booking functionalities.
+
+### Backend Developers
+- **Description**: Builds and maintains server-side architecture and data management systems.
+- **Key Responsibilities**:
+  - Designing and implementing RESTful APIs
+  - Developing database schemas and data models
+  - Creating authentication and authorization systems
+  - Implementing business logic and application rules
+  - Optimizing for performance and scalability
+- **Contribution**: Provides the foundational data infrastructure that powers the application's features.
+
+### Designers
+- **Description**: Creates the visual and interactive elements of the user interface.
+- **Key Responsibilities**:
+  - Developing UI/UX design concepts and wireframes
+  - Creating visual design systems and component libraries
+  - Designing responsive layouts for various devices
+  - User research and usability testing
+  - Creating prototypes for developer handoff
+- **Contribution**: Ensures the application is intuitive, accessible, and delivers a delightful user experience.
+
+### QA/Testers
+- **Description**: Ensures software quality through comprehensive testing.
+- **Key Responsibilities**:
+  - Creating and executing test plans and test cases
+  - Performing functional, regression, and UI testing
+  - Identifying and documenting bugs and issues
+  - Verifying bug fixes and feature implementations
+  - Automated testing implementation
+- **Contribution**: Helps maintain high quality standards and ensures a smooth, error-free user experience.
+
+### DevOps Engineers
+- **Description**: Manages deployment infrastructure and continuous integration pipelines.
+- **Key Responsibilities**:
+  - Setting up and maintaining CI/CD pipelines
+  - Managing cloud infrastructure and deployment environments
+  - Implementing monitoring and logging solutions
+  - Ensuring system security and performance
+  - Automating repetitive operational tasks
+- **Contribution**: Enables rapid, reliable deployment of new features and maintains system stability.
+
+### Product Owner
+- **Description**: Represents stakeholder interests and defines product requirements.
+- **Key Responsibilities**:
+  - Developing and maintaining the product backlog
+  - Prioritizing features based on business value
+  - Creating user stories and acceptance criteria
+  - Making product decisions and scope adjustments
+  - Gathering and incorporating user feedback
+- **Contribution**: Ensures the application meets user needs and business objectives.
+
+### Scrum Master
+- **Description**: Facilitates agile processes and removes team impediments.
+- **Key Responsibilities**:
+  - Organizing and facilitating scrum ceremonies
+  - Removing obstacles that block team progress
+  - Coaching the team on agile practices
+  - Protecting the team from external distractions
+  - Promoting continuous improvement
+- **Contribution**: Enhances team productivity and ensures efficient adherence to agile methodologies.
