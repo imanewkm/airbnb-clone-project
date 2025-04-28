@@ -139,3 +139,111 @@ A user-friendly design is critical in booking systems as it directly impacts con
   - Protecting the team from external distractions
   - Promoting continuous improvement
 - **Contribution**: Enhances team productivity and ensures efficient adherence to agile methodologies.
+
+## UI Component Patterns
+
+This section outlines the key reusable components that will be developed for consistent user experience across the application. Following a component-based architecture allows for better maintainability, consistent styling, and efficient development.
+
+### Navigation Components
+
+#### Navbar
+- **Description**: The primary navigation header appearing on all pages
+- **Features**:
+  - Logo and brand identity
+  - Responsive design with mobile hamburger menu
+  - Search bar integration (collapsible on mobile)
+  - User authentication controls (login/signup/profile)
+  - Navigation links to key sections
+  - Notification indicators
+- **Usage**: Site-wide, with contextual variations
+
+#### Footer
+- **Description**: Consistent footer with site information and links
+- **Features**:
+  - Copyright and legal information
+  - Navigation links to secondary pages
+  - Social media links
+  - Language selection
+  - Currency selection
+  - Newsletter signup
+- **Usage**: Site-wide
+
+### Content Components
+
+#### Property Card
+- **Description**: Standardized display of property listings in grid/list views
+- **Features**:
+  - Featured image with carousel capability
+  - Property title and location
+  - Price display with optional discount indicators
+  - Rating visualization
+  - Key property attributes (beds, baths, etc.)
+  - Wishlist/save functionality
+  - Host information preview
+- **Usage**: Listing pages, search results, recommendations
+
+#### Search Filters
+- **Description**: Modular filter components for refining property searches
+- **Features**:
+  - Date range picker
+  - Guest counter (adults/children/infants)
+  - Price range slider
+  - Property type filters
+  - Amenities checklist
+  - Instant booking toggle
+  - Clear filters option
+- **Usage**: Search page, filter modals
+
+#### Review Component
+- **Description**: Standardized display for user reviews
+- **Features**:
+  - User avatar and name
+  - Date of stay/review
+  - Rating visualization
+  - Review text with truncation for longer reviews
+  - Helpful/report options
+  - Host response (if applicable)
+- **Usage**: Property detail pages, host profiles
+
+### Interactive Components
+
+#### Image Gallery
+- **Description**: Flexible image display system for property listings
+- **Features**:
+  - Thumbnail grid with featured image
+  - Fullscreen carousel mode
+  - Lazy loading for performance
+  - Image zoom capabilities
+  - Navigation controls
+- **Usage**: Property detail pages
+
+#### Booking Calendar
+- **Description**: Interactive calendar for selecting booking dates
+- **Features**:
+  - Date range selection
+  - Unavailable date blocking
+  - Minimum/maximum stay indicators
+  - Price variations by date
+  - Mobile-friendly interface
+- **Usage**: Property detail pages, search filters
+
+#### Modal Components
+- **Description**: Reusable modal patterns for various interactions
+- **Features**:
+  - Login/signup forms
+  - Confirmation dialogs
+  - Image viewers
+  - Filter expansion
+  - Mobile-optimized versions
+- **Usage**: Throughout application as needed
+
+#### Map Component
+- **Description**: Interactive map display for property locations
+- **Features**:
+  - Property pin clustering
+  - Info windows for properties
+  - Price labels on map
+  - Custom styling to match brand
+  - Zoom and pan controls
+  - Current location option
+- **Usage**: Search results page, property detail pages
